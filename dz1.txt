@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "your name is:ec2-user@ip-172-31-33-20 "
+echo "your working directory is:/opt/160523_evening/Famin"
+echo "done"
