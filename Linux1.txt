@@ -1,0 +1,10 @@
+#!/bin/bash
+
+        for i in {1..10}
+        do
+        filename="$i.`date +%y.%m.%d`"
+        touch $filename
+        done
+
+mkdir -p /opt/160523_evening/Famin/hwarchive
+mv [1-9][0-9]* /opt/160523_evening/Famin/hwarchive/
